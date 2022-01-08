@@ -17,10 +17,10 @@ Each client is OK with additional ingredients they neither like or dislike being
 
 ### Input
 
-- The first line contains one integer $$1≤ C ≤10^5$$ \- the number of potential clients.  
-- The following $$2\;×\;C$$  lines describe the clients’ preferences in the following format:
-  - First line contains integer $$1 ≤ L ≤ 5$$, followed by $$L$$ names of ingredients a client likes, delimited by spaces.
-  - Second line contains integer $$0 ≤ D ≤ 5$$, followed by $$D$$ names of ingredients a client dislikes, delimited by spaces.
+- The first line contains one integer  `1 ≤ C ≤ 10⁵` - the number of potential clients.  
+- The following `2 × C`  lines describe the clients’ preferences in the following format:
+  - First line contains integer `1 ≤ L ≤ 5`, followed by `L` names of ingredients a client likes, delimited by spaces.
+  - Second line contains integer `0 ≤ D ≤ 5`, followed by `D` names of ingredients a client dislikes, delimited by spaces.
 
 Each ingredient name consists of between 1 and 15 ASCII characters.  Each character is one of the lowercase letters (a-z) or a digit (0-9).
 
@@ -52,18 +52,18 @@ Sample Output
 4 cheese mushrooms tomatoes peppers
 ```
 
-In the Sample Input there are $$3$$ potential clients:
+In the Sample Input there are `3` potential clients:
 
--   The first client likes $$2$$ ingredients, `cheese` and `peppers`,  and does not dislike anything.
+-   The first client likes `2` ingredients, `cheese` and `peppers`,  and does not dislike anything.
 
 -   The second client likes only `basil` and dislikes only `pineapple`.
 -   The third client likes `mushrooms` and `tomatoes` and dislikes only  `basil`
 
- The picture below shows the preferences of $$3$$ potential clients.
+ The picture below shows the preferences of `3` potential clients.
 
 ![Three 'Vote for your pizza' cards with some ingredients marked as likes and some marked with dislikes.](Assets/README.assets/pizza-poll-examples.png)
 
-  In this particular Sample Output, we choose to use $$4$$ ingredients in the pizza:  `cheese`, `mushrooms`, `tomatoes`, and `peppers`.
+  In this particular Sample Output, we choose to use `4` ingredients in the pizza:  `cheese`, `mushrooms`, `tomatoes`, and `peppers`.
 
 <img src="Assets/README.assets/pizza-sample-output.png" alt="The pizza corresponding to the sample output. It contains cheese, mushrooms, tomatoes, and peppers." style="zoom: 25%;" />
 
@@ -71,4 +71,4 @@ In the Sample Input there are $$3$$ potential clients:
 -   The second client does not like the pizza: it does not contain `basil` which they like.
 -   The third client likes the pizza because it contains `mushrooms` and  `tomatoes`, which they like, and does not contain `basil` which they do not  like.
 
-This means a submission of this output would score $$2$$ points for this case, because two  clients (the first and third ones) would like this pizza.
+This means a submission of this output would score `2` points for this case, because two  clients (the first and third ones) would like this pizza.
