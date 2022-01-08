@@ -1,6 +1,6 @@
 ## Problem
 
-<img src="Assets/README.assets/pizzeria.gif" alt="A picture of a pizzeria with a 'One Pizza is all you need' sign." style="zoom: 25%;" /> 
+<img src="Assets/README.assets/pizzeria.gif" alt="A picture of a pizzeria with a 'One Pizza is all you need' sign." width="350"/> 
 
 
 
@@ -65,7 +65,7 @@ In the Sample Input there are `3` potential clients:
 
   In this particular Sample Output, we choose to use `4` ingredients in the pizza:  `cheese`, `mushrooms`, `tomatoes`, and `peppers`.
 
-<img src="Assets/README.assets/pizza-sample-output.png" alt="The pizza corresponding to the sample output. It contains cheese, mushrooms, tomatoes, and peppers." style="zoom: 25%;" />
+<img src="Assets/README.assets/pizza-sample-output.png" alt="The pizza corresponding to the sample output. It contains cheese, mushrooms, tomatoes, and peppers." width="250" />
 
 -   The first client likes the pizza because it contains both `cheese` and  `peppers`, which they like.
 -   The second client does not like the pizza: it does not contain `basil` which they like.
