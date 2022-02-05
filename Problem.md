@@ -1,10 +1,10 @@
 ## Problem
 
-<img src="Assets/README.assets/pizzeria.gif" alt="A picture of a pizzeria with a 'One Pizza is all you need' sign." width="350"/> 
+<img src="Assets/pizzeria.gif" alt="A picture of a pizzeria with a 'One Pizza is all you need' sign." width="350"/> 
 
 
 
-![A picture of menu with six ingredients to choose from and a 'What do you like on pizza?' text.](Assets/README.assets/pizza-poll.png)
+![A picture of menu with six ingredients to choose from and a 'What do you like on pizza?' text.](Assets/pizza-poll.png)
 
 You are opening a small pizzeria. In fact, your pizzeria is **so** small that you decided to offer only **one type of pizza**. Now you need to decide what ingredients to include (peppers? tomatoes? both?).
 
@@ -61,11 +61,11 @@ In the Sample Input there are `3` potential clients:
 
  The picture below shows the preferences of `3` potential clients.
 
-![Three 'Vote for your pizza' cards with some ingredients marked as likes and some marked with dislikes.](Assets/README.assets/pizza-poll-examples.png)
+![Three 'Vote for your pizza' cards with some ingredients marked as likes and some marked with dislikes.](Assets/pizza-poll-examples.png)
 
   In this particular Sample Output, we choose to use `4` ingredients in the pizza:  `cheese`, `mushrooms`, `tomatoes`, and `peppers`.
 
-<img src="Assets/README.assets/pizza-sample-output.png" alt="The pizza corresponding to the sample output. It contains cheese, mushrooms, tomatoes, and peppers." width="250" />
+<img src="Assets/pizza-sample-output.png" alt="The pizza corresponding to the sample output. It contains cheese, mushrooms, tomatoes, and peppers." width="250" />
 
 -   The first client likes the pizza because it contains both `cheese` and  `peppers`, which they like.
 -   The second client does not like the pizza: it does not contain `basil` which they like.
